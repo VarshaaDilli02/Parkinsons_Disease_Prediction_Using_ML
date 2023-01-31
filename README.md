@@ -1,1 +1,1 @@
-# Parkinson-s_Disease_Prediction_Using_ML
+# Parkinson_Disease_Prediction_Using_ML
