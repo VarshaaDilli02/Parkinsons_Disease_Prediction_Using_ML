@@ -1,30 +1,21 @@
 # Parkinsons_Disease_Prediction_Using_ML
 
-Sports play a very important role in the development of the human persona. Involving in games like cricket helps us to build our character, confidence, fitness, etc. One such event is IPL. Indian Premier League(IPL) is the most popular sports event in India with huge amount of cash flow on and off pitch. This project provides a detailed analysis of the IPL dataset and visualises the various features required for the selection of the IPL teams. The score prediction was also made for the individual players.
+Parkinson’s disease is a progressive disorder that affects the nervous system and the parts of the body controlled by the nerves. Symptoms are also not that sound to be noticeable. Signs of stiffening, tremors, and slowing of movements may be signs of Parkinson’s disease. This project classifies the patient with disease from the healthy patients.
 
 AIM:
 
-To analyze the IPL dataset from 2008-2019 using statistical techniques in Python like measures of central tendency, correlation and regression, probability distributions, hypothesis testing, and conditional probability. Also, represent the data in the form of graphs and diagrams and predict the score of the individual player in 2020.
-
+To classify patients with Parkinson's disease based on different features and use different machine lerning models to preict the presence of the disease in an individual.
 
 SCOPE:
 
-This will help the decision makers to identify capable players for their team, thus improving the power of the team.
+This will be helpful for the patients in the early detection of the disease.
 
 
 DATASET:
 
 •	The dataset was downloaded from Kaggle.
 
-•	2 datasets were used for this purpose: Deliveries & Matches
-
-DELIVERIES represents ball by ball runs scored by the individual players.
-
-•	The attributes include match id, innings, batting team, bowling team, over, ball, batsman, non-striker, bowler, super over, wide runs, total runs, player dismissed, dismissal kind and fielder.
-
-MATCHES describes the match wise data of individual teams.
-
-•	The attributes include id, season, city, date, team1, team2, toss winner, toss decision, result, DI applied, winner, win by runs, player of the match, venue, umpire1, umpire2 and umpire3.
+•	The attributes include name, MDVP:Fo(Hz), MDVP:Fhi(Hz), MDVP:Flo(Hz), MDVP:Jitter(%), MVDP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, NHR, HNR, status, RPDE, DFA, spread1, spread2, D2 and PPE.
 
 
 LANGUAGES USED:
@@ -34,15 +25,19 @@ LANGUAGES USED:
 
 CONCEPTS USED:
 
-•	Statistical concepts
+•	ML models
 
-•	Visualisations
+Logistic Regression
+Naive Bayes Classifier
+Support Vector Machine
+Decision Tree Classifier
+Random Forest Classifier
 
-ACCURACY: 91 %
 
-FUTURE SCOPE:
+ACCURACY: 
 
-•	Use advanved methods to improve the accuracy of the results.
+SUPPORT VECTOR MACHINE MODEL was found to be the best model with the accuracy of 89.74%.
+
 
 
 
