@@ -18,7 +18,7 @@ This will be helpful for the patients in the early detection of the disease.
 •	The attributes include name, MDVP:Fo(Hz), MDVP:Fhi(Hz), MDVP:Flo(Hz), MDVP:Jitter(%), MVDP:Jitter(Abs), MDVP:RAP, MDVP:PPQ, NHR, HNR, status, RPDE, DFA, spread1, spread2, D2 and PPE.
 
 
-# Languages Used:
+## Languages Used:
 
 •	Python
 
@@ -28,9 +28,13 @@ This will be helpful for the patients in the early detection of the disease.
 •	ML models
 
 Logistic Regression
+
 Naive Bayes Classifier
+
 Support Vector Machine
+
 Decision Tree Classifier
+
 Random Forest Classifier
 
 ## Accuracy
