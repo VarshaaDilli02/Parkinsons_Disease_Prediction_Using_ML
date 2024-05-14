@@ -6,7 +6,7 @@ Parkinson’s disease is a progressive disorder that affects the nervous system 
 
 To classify patients with Parkinson's disease based on different features and use different machine lerning models to preict the presence of the disease in an individual.
 
-SCOPE:
+## Scope:
 
 This will be helpful for the patients in the early detection of the disease.
 
