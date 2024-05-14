@@ -11,7 +11,7 @@ SCOPE:
 This will be helpful for the patients in the early detection of the disease.
 
 
-# Dataset:
+## Dataset:
 
 •	The dataset was downloaded from Kaggle.
 
@@ -23,7 +23,7 @@ This will be helpful for the patients in the early detection of the disease.
 •	Python
 
 
-# Concepts Used
+## Concepts Used
 
 •	ML models
 
@@ -33,7 +33,7 @@ Support Vector Machine
 Decision Tree Classifier
 Random Forest Classifier
 
-# Accuracy
+## Accuracy
 
 SUPPORT VECTOR MACHINE MODEL was found to be the best model with the accuracy of 89.74%.
 
