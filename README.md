@@ -44,26 +44,26 @@ SUPPORT VECTOR MACHINE MODEL was found to be the best model with the accuracy of
 
 ```mermaid
 graph TD;
-    Register["( Register )"] -->|Name, email, password| Register
+    Register["Register"] -->|Name, email, password| Register
     Register -->|Saved successfully| Login
-    Login["( Login )"] -->|Email, password| Login
+    Login["Login"] -->|Email, password| Login
     Login -->|Successful login| User
     Login -->|Access rights| Admin
     Login -->|User data| Users
-    Users["( Users )"] -->|Manage user| Admin
+    Users["Users"] -->|Manage user| Admin
     Users -->|User list| Admin
     Users -->|d_users| Login
-    Materials["( Materials )"] -->|Manage material| Admin
+    Materials["Materials"] -->|Manage material| Admin
     Materials -->|View material| User
     Materials -->|Save material| Materials
     Materials -->|Saved successfully| Materials
     Materials -->|material| User
-    Exercises["( Exercises )"] -->|Manage exercises| Admin
+    Exercises["Exercises"] -->|Manage exercises| Admin
     Exercises -->|Save exercises| Exercises
     Exercises -->|Saved successfully| Exercises
     Exercises -->|exercise| User
     Exercises -->|d_contents| Materials
-    Contents["( Contents (Images & Videos) )"] -->|Manage video and image content| Admin
+    Contents["Contents (Images & Videos)"] -->|Manage video and image content| Admin
     Contents -->|Save video, image (url)| Contents
     Contents -->|Saved successfully| Contents
     Contents -->|Video and image content| User
