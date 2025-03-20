@@ -43,7 +43,7 @@ SUPPORT VECTOR MACHINE MODEL was found to be the best model with the accuracy of
 
 
 ```
-mermeid
+mermaid
 graph TD;
     Register["( Register )"] -->|Name, email, password| Register
     Register -->|Saved successfully| Login
