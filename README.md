@@ -42,8 +42,7 @@ Random Forest Classifier
 SUPPORT VECTOR MACHINE MODEL was found to be the best model with the accuracy of 89.74%.
 
 
-```
-mermaid
+```mermaid
 graph TD;
     Register["( Register )"] -->|Name, email, password| Register
     Register -->|Saved successfully| Login
