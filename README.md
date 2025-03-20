@@ -65,7 +65,7 @@ graph TD;
     Exercises -->|exercise| User
     Exercises -->|d_contents| Materials
     Contents["Contents (Images & Videos)"] -->|Manage video and image content| Admin
-    Contents -->|Save video, image (url)| Contents
+    Contents -->|Save video, image URL| Contents
     Contents -->|Saved successfully| Contents
     Contents -->|Video and image content| User
     Admin["[ Admin ]"] -->|email, password| Login
@@ -73,8 +73,8 @@ graph TD;
     Admin -->|exercises| Exercises
     Admin -->|Video and image content| Contents
     User["[ User ]"] -->|View material| Materials
-    User -->|Lihat exercise| Exercises
+    User -->|View exercise| Exercises
     User -->|View video and image content| Contents
+
+
 ```
-
-
